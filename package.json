@@ -1,0 +1,21 @@
+{
+  "name": "vite-plugin-md-es-resolution",
+  "version": "1.0.0",
+  "description": "Issue reproduction of es module resolution in vite-plugin-md",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./scripts/vite.dev.js",
+    "start:exp": "node --experimental-specifier-resolution=node ./scripts/vite.dev.js"
+  },
+  "author": "Louis Gollut <louis.gollut@proton.me>",
+  "license": "ISC",
+  "type": "module",
+  "engines": {
+    "node": ">=16"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.3",
+    "vite": "^2.9.10",
+    "vite-plugin-md": "^0.14.0"
+  }
+}
